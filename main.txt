@@ -1,5 +1,0 @@
-The database query finishes in milliseconds, but the subsequent operations continue for hundreds of milliseconds or even multiple seconds. And during that entire time, the database connection is held and not released back to the pool.
-
-The database is rarely the bottleneck. Most queries complete in single-digit milliseconds. The problem is holding connections while your application does everything else: processing, calling external APIs and serializing responses. That’s when a 5ms query turns into a 500ms connection hold.
-
-Measuring how long your endpoints hold connections versus how long they actually need them is worth doing before you hit production traffic.

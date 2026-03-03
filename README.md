@@ -50,10 +50,10 @@ Point host at `http://localhost:8000` for bottleneck, `http://localhost:8001` fo
 ## Results
 
 ### Bottleneck (`main.py`)
-![Bottleneck results](bottelneck_img/Screenshot%202026-03-03%20at%2010.57.52%20AM.png)
+![Bottleneck results](bottelneck_img/b.png)
 
 ### Optimized (`solution.py`)
-![Optimized results](solution_img/Screenshot%202026-03-03%20at%2010.59.23%20AM.png)
+![Optimized results](solution_img/s.png)
 
 | | Bottleneck | Optimized |
 |---|---|---|
